@@ -1,0 +1,830 @@
+html {
+	height:100%;
+	width:100%;
+}
+      body {
+        background: url("../img/slide1.jpg") no-repeat fixed 0 0  #000;
+		background-size:100%;
+      }
+      *:focus {
+        outline : 0;
+      } 
+      h1,h2,h3,h4,h5,h6, .brand {
+        font-family: "Crushed";
+        font-weight: normal;
+      }
+      p, li, form {
+        font-family: 'Open Sans', sans-serif;
+      }
+      h1 {
+        color: #333;
+        font-size: 8em;
+        line-height: 1em;
+        text-align: center;
+        text-transform: uppercase; 
+      }
+      h2 {
+        color: #333;
+        font-size: 3em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+	  #who-we-are h2 { font-size: 2em; }
+	  #portfolio h1, #portfolio h2 { 
+		  color:#fff; 
+		  text-shadow:0 2px 1px #999;
+	  }
+      h3 {
+        color: #333;
+        font-size: 2em;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+      }
+      i {
+        color: #333;
+        text-align: center;
+      }
+      ul {
+        list-style: none;
+      }
+      section {
+        padding: 75px 0 75px 0;
+      }
+      blockquote {
+        margin: 0 100px;
+        padding: 20px 0;
+        background: rgba(251,251,251,0.6);
+        border-color: #fff;
+
+       }
+      img {
+          outline: none !important;
+      }
+       a:hover, a:focus {
+        text-decoration: none;
+        outline: none;
+      }
+        .container {
+          max-width: 960px;
+        }
+        .center {
+        margin: 0 auto;
+        max-width: 960px; 
+      }
+
+        .title {margin-bottom: 50px;}
+
+         .alert-success {
+        background-color: #FFCC33;
+        border-color: #FFCC33;
+        color: #333333;
+      }
+
+
+
+      /*--
+      }
+==================================
+        THE MODAL
+==================================
+--*/  
+
+
+
+
+
+      .modal-body {
+        overflow-y: hidden;
+      }
+      .modal {
+        background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+        border:none;
+      }
+      .modal img {
+        border-radius: 50% 50% 50% 50%;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: table;
+      }
+      .modal p {
+        margin-top:10px;
+        color: #fff;
+      }
+      .modal-header {
+        border-bottom: 5px solid #FFCC33;
+        margin-bottom: 10px;
+      }
+      .modal-header h3 {
+        color: #fff;
+      }
+      .modal-header .close {
+        color: #fff;
+      }
+
+
+
+
+ /*--
+      }
+==================================
+        THE SCROLLUP PLUGIN
+==================================
+--*/      
+
+
+
+     #scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 18px 20px;
+    background: #555;
+    color: #fff;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+
+}
+
+
+  
+      
+
+/*--
+==================================
+        Skills
+==================================
+--*/
+
+    #skills h1, #skills h2 { 
+		  color:#fff; 
+		  text-shadow:0 2px 1px #999;
+	  }
+     #skills .round {
+      margin-bottom: 20px;
+    }
+     #skills .round a {
+      display: block;
+      border-radius: 50% 50% 50% 50%;
+      -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+      -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+      box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+      overflow: hidden;
+     }
+
+          
+
+          /*--
+==================================
+        THE WELLCOME PAGE
+==================================
+--*/
+
+          .welcome {
+            padding: 50px 0;
+            
+          }
+            .welcome h1 {
+              background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWP4//9/AwNRAKdKADhFBvvROFpEAAAAAElFTkSuQmCC) repeat scroll 0 0;
+              background-attachment:fixed;
+              text-align: center;
+              padding: 50px;
+              border: 5px solid #333;
+              color: #333;
+            }
+            .welcome strong {
+              color: #ffcc33;
+          }
+          .scroll-down a {
+            display: table;
+            width: 100px;
+            height: 100px;
+            text-align: center;  
+            font-size: 15px;
+            margin: 0 auto;
+            font-weight: lighter;
+            border-radius:  50% 50% 50% 50%;
+            background:  #ffcc33;
+            -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+            animation:mymove 1s infinite;
+            -webkit-animation:mymove 1s infinite; /* Safari and Chrome */ 
+            -moz-animation: mymove 1s 3;        
+          }      
+            .scroll-down a i {
+              display: table-cell;
+              vertical-align:  middle;
+            }
+          
+ /*--
+==================================
+        THE PARALLAX
+==================================
+--*/
+     
+      
+
+
+ /*--
+==================================
+        THE BACKGROUND Patterns
+==================================
+--*/
+      
+    
+      .pattern1 {
+        background: url(../img/geometry.png)  repeat fixed transparent;
+      }
+      .pattern2 {
+       background: url(../img/pixel_weave.png) repeat fixed transparent;
+      }
+      .pattern3 {
+        background: url(../img/strange_bullseyes.png) repeat fixed transparent;
+      }
+      
+      
+
+
+      /*--
+==================================
+        THE PARALLAX
+==================================
+--*/
+
+
+
+      .parallax {
+        width: 100%;
+      }
+
+      
+
+     /*--
+==================================
+        THE HERO UNIT
+==================================
+--*/
+
+
+
+      .hero-unit {
+        background: transparent;
+        border-radius: 0;
+        margin: 0;
+      }
+      
+
+
+
+ /*--
+======================================
+        THE MY STICKY ELEMENT PLUGIN
+======================================
+--*/
+
+
+
+      .my-sticky-element.stuck {
+        position:fixed;
+        top:0;
+        width: 100%;
+        box-shadow:0 2px 4px rgba(0, 0, 0, .3);
+      }
+      
+      .navbar-inner, .my-sticky-element.stuck {
+        background: #fff;
+        background-image: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        z-index: 999;
+      }
+
+
+
+
+ /*--
+======================================
+       THE NAVBAR
+======================================
+--*/
+
+
+
+      .navbar {
+       
+        margin: 0;
+      }
+        .navbar .btn-navbar {
+          background: none;
+          box-shadow: none;
+          padding: 25px 15px;
+        }
+        .navbar .btn-navbar:hover {
+          background: none;
+          box-shadow: none;
+        }
+        .navbar .nav {
+        float: right;
+        }
+        /*
+         * Commented by jinmatt
+         *
+        .navbar .brand {
+          font-size: 36px;
+          color: #333333;
+          text-shadow: none;
+          padding: 25px 15px;
+          outline: none;
+        }
+        */
+        
+        
+        
+        .navbar ul.nav li a {
+        color: #333;
+        text-shadow: none;
+        padding: 25px 15px;
+        outline: none;
+        }
+        
+       
+        .navbar .brand {
+          background-image: url('../img/jitesh.png');
+          background-position:0 0;
+          background-repeat: no-repeat;
+          height: 40px;
+          width: 157px;
+          text-indent: -9999px;
+          margin-top: 13px;
+          cursor: pointer;
+          padding: 0;
+        }
+        /*.navbar .nav a.brand {
+          padding-top: 27px;
+          font-weight: bold;
+        }*/
+        .navbar .nav li a:active, .navbar .nav li a:focus {
+          color: #fff;
+        }
+        .navbar .nav .current {
+          outline: none;
+          background: #333;
+          -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+        }
+        .navbar .nav .current a {
+          outline: none;
+          color: #fff;
+        }
+        .navbar .nav .current a:hover {
+          outline: none;
+          color: #fff;
+        }
+      .nav-collapse .nav {
+          background: none;
+        }
+      .top-navbar {
+        background: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+      }
+        .top-navbar .navbar-inner {
+          background: none;
+        }
+          .top-navbar .navbar-inner .nav {
+            background: #00BACA;
+          }
+            .top-navbar .navbar-inner .nav .current, .top-navbar .navbar-inner .nav .current a {
+                background: none;
+                outline: none;
+            }
+
+
+/*-- Icon--*/
+
+      .socialicon-small {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+        .socialicon-small li {
+          float: left;  
+          margin: 5px;
+           display: table;
+        }
+        .socialicon-small li:first-child {
+          margin-left: 0;
+        }
+        .socialicon-small li a {
+          color: #eee; 
+          font-size: 18px;
+          text-align: center;
+          display: table-cell;
+          vertical-align: middle;
+          width: 30px;
+          height: 30px;
+          background: #ffcc33;
+          text-decoration: none;
+          border-radius: 50% 50% 50% 50%;
+          -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+          -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+          box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+        }
+         .socialicon-small li a i {
+          color: #333;
+
+         }
+        .socialicon-small li a:hover {
+          -webkit-transition: background 0.5s linear;
+          -moz-transition: background 0.5s linear;
+          -ms-transition: background 0.5s linear;
+          -o-transition: background 0.5s linear;
+          transition: background 0.5s linear;
+          background: transparent;
+        }
+
+
+      
+      .socialicon-big {
+        text-align: center;
+        margin: 0 0 50px 0;
+        min-height: 100px;
+        background: #fff;
+        background: url(../img/geometry.png);
+      }
+        .socialicon-big ul {
+          display: inline-block !important;
+          text-align: center;
+        }
+          .socialicon-big ul li {
+            margin: 25px 15px 15px;
+            display: inline-block;
+          }
+          .socialicon-big ul li a {
+            display: table-cell;
+            vertical-align: middle;
+            width: 60px;
+            height: 60px;
+            text-decoration: none;
+            border-radius: 50% 50% 50% 50%;
+            background:  #FF8000;
+            -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5); 
+            transition:All 0.6s ease;
+            -webkit-transition:All 0.6s ease;
+            -moz-transition:All 0.6s ease;
+            -o-transition:All 0.6s ease;
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -o-transform: scale(1);
+            -ms-transform: scale(1);
+           
+          }
+          .socialicon-big ul li a:hover {
+            transition:All 0.6s ease;
+            -webkit-transition:All 0.6s ease;
+            -moz-transition:All 0.6s ease;
+            -o-transition:All 0.6s ease;
+            transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2); 
+            opacity: 0.9; 
+            -webkit-box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    0px 0px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         0px 0px 0px rgba(50, 50, 50, 0.5);          
+
+          }
+          .socialicon-big ul li a i {
+            color: #333333;
+          }
+
+
+
+
+
+
+
+/*--
+==================================
+        THE HOVERDIR PLUGIN in PORTFOLIO
+==================================
+--*/
+
+
+
+        .da-thumbs [class*=span] {
+            position: relative;
+        }
+        .da-thumbs [class*=span] a,
+        .da-thumbs [class*=span] a img {
+            display: block;
+            position: relative;
+        }
+        .da-thumbs [class*=span] a {
+            overflow: hidden;
+        }
+        .da-thumbs div.box {
+            position: absolute;
+            background: rgba(255,204,51,0.9);
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 50% 50% 50%;
+
+        }
+          .da-thumbs div.box p {
+            text-align: center;
+            font-size: 24px;
+            padding-top: 35%;
+          }
+        .da-thumbs li a div {
+          top: 0px;
+          left: -100%;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+        }
+        .da-thumbs li a:hover div{
+          left: 0px;
+        }
+        
+
+
+/*-- Portfolio--*/
+
+    #portfolio .thumb {
+      margin-bottom: 20px;
+    }
+     #portfolio .thumb a {
+      display: block;
+      border-radius: 50% 50% 50% 50%;
+      -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+      -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+      box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+      overflow: hidden;
+     }
+      
+
+
+ 
+ /*--
+======================================
+        THE BTN 
+======================================
+--*/
+
+
+
+
+      .btn, .btn:hover, .btn:focus {
+        background-image: none;
+        background-color: #FF8000;
+        color: #333;
+        text-shadow: none;
+        font-weight:normal;
+        border:none;
+        border-radius: 2px 2px 2px 2px;
+        font-size: 14px;
+        padding: 10px 20px;
+        box-shadow: 0 3px  0 0 rgba(51, 51, 51,0.7);
+        transition: all 0.5 ease 0s;
+        -webkit-transition: all 0.5 ease 0s;
+        -moz-transition: all 0.5 ease 0s;
+        -o-transition: all 0.5 ease 0s;
+      }
+      .btn:hover {
+        background: #fff;
+        transition: all 0.5s ease 0s;
+      }
+
+
+
+
+
+ /*--\
+======================================
+        THE FORM
+======================================
+--*/
+
+
+
+
+      #ContactForm {
+        width: 96.5%;
+      }
+      select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+        color: #333333;
+        font-weight: bold;
+        width: 100%;
+        padding: 15px;
+        border-radius: 0;
+        box-shadow: none;
+        background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGBoYCAWYFcJACtEAQFXLRfDAAAAAElFTkSuQmCC) repeat scroll 0 0;
+        border-color: #bbb;
+      }
+      textarea {
+        min-height: 146px;
+      }
+      input:hover, textarea:hover {
+        border: 1px solid #ffcc33 !important;
+      }
+      form button {
+        float: left;
+      }
+      #msj h3 {
+        background: #C53B47;
+        color: #fff;
+      }
+      .success-message {
+        display: none;
+      }
+      .error-message {
+        display: none;
+      }
+
+
+
+       /*--
+======================================
+        THE CONTACT
+======================================
+--*/
+
+     #contact .thumb {
+      margin-bottom: 20px;
+    }
+     #contact .thumb a {
+      display: block;
+      border-radius: 50% 50% 50% 50%;
+      -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+      -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+      box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+      overflow: hidden;
+     }
+      #contact {
+        text-align: center;
+      }
+      #contact ul {
+        padding: 0;
+        margin: 30px 0 70px 0;
+      }
+        #contact ul li {
+         display: block;
+         padding: 7px 0;
+		 text-align:left;
+        }
+          #contact ul li i {
+            margin-right: 15px;
+            color: #333;
+            background: #ffcc33;
+            width: 30px;
+            height: 30px;
+            padding: 6px;
+            border-radius:  50% 50% 50% 50%;
+            -webkit-box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    0px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         0px 5px 0px rgba(50, 50, 50, 0.5);
+          }
+	#contact .span6 p { text-align:justify; }
+
+
+
+
+
+ /*--
+======================================
+        THE FOOTER 
+======================================
+--*/
+
+
+
+
+      footer {
+        padding: 0px 0 50px 0;
+        background: #333;
+      }
+      footer h2, footer p {
+        color: #fff;
+      }
+
+
+
+ /*--
+==================================
+        THE  MEDIA SCREEN
+==================================
+--*/
+
+
+
+
+
+ @media screen and (max-width: 800px) {
+
+        body {
+          padding: 0;
+        }
+        form {
+          width: 95%;
+        }
+
+        .container {
+          padding: 0 20px;
+        }
+
+        .secondary-row .span6 {
+          width: 47% !important;
+        }
+
+        .main-row {
+          margin-bottom: 24px !important;
+        }
+        .scroll-down {
+          display: none;
+        }
+        #who-we-are .span3 {
+           background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGBoYCAWYFcJACtEAQFXLRfDAAAAAElFTkSuQmCC);
+           margin-top: 20px;
+           padding: 20px;
+        }
+        #portfolio .thumb {
+          max-width: 300px;
+          margin: 20px auto;
+        }
+      }
+      
+
+   @media screen and (max-width: 600px) {
+
+        .secondary-row .span6 {
+          width: 46% !important;
+        }
+
+  
+    }
+
+    @media screen and (device-width: 480px) { 
+       h1 {
+        font-size: 3em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+        h3 {
+          font-size: 1em;
+        }
+        h4 {
+        }
+        h5 {
+        }
+        p {
+          font-size: 14px;
+        }
+        .modal, .box {
+          display: none!important;
+        }
+        
+     }
+     @media screen and (max-width: 760px) {
+     
+     #skills .round{
+         text-align: center !important;   
+        }
+        #skills .round img{
+         display: inline-block !important; 
+         border-radius: 50%;
+        }
+        #skills .round a{box-shadow: none !important;}
+        #portfolio h1{font-size: 6em !important;}
+     }
+
+    
+
+    @media screen and (min-width: 760px) and (max-width: 1023px) {
+
+        .da-thumbs div.box p {
+          font-size: 14px;
+        }
+       
+    }
